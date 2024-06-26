@@ -1,6 +1,8 @@
 import pytest
 import unittest
-from category import Category
+
+
+from src.core.category.domain.category import Category
 from uuid import UUID
 import uuid
 
@@ -125,3 +127,4 @@ class TestEquality:
         dummy.id = id_cat1
         
         assert categoria1 != dummy
+        
